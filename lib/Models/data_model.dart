@@ -34,15 +34,4 @@ class Data {
   static String dateFormat(DateTime date) {
     return DateFormat("EEEE d MMMM y", "pt_Br").format(date);
   }
-
-  // static DateTime getData(String date) {
-  //   String? newDate;
-  //   for (int i = 0; i < date.length; i++) {
-  //     if(instanceof(date[i], int)) {
-  //       newDate = newDate! + date[i];
-  //     }
-  //   }
-
-  //   return newDate! as DateTime;
-  // }
 }
