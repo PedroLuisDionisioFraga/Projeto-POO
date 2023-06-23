@@ -1,0 +1,45 @@
+name: expense_manager
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0-92.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  mask_text_input_formatter: ^2.4.0
+  intl: ^0.18.0
+
+  mysql_utils: ^2.1.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+   - family: Robot
+     fonts:
+      - asset: assets/fonts/Roboto/Roboto-Medium.ttf
+      - asset: assets/fonts/Roboto/Roboto-Bold.ttf
+        weight: 700
+      - asset: assets/fonts/Roboto/Roboto-BoldItalic.ttf
+        weight: 800
+
+   - family: OpenSans
+     fonts:
+      - asset: assets/fonts/OpenSans/OpenSans-Medium.ttf
+      - asset: assets/fonts/OpenSans/OpenSans-ExtraBold.ttf
+        weight: 700
+      - asset: assets/fonts/OpenSans/OpenSans-BoldItalic.ttf
+        weight: 800
+
+  assets:
+    - assets/images/fundo_lista_de_transições_vazia.png
